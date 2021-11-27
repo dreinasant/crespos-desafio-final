@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main{
+    height: 95vh;
+    background-image:url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d;revision=0?component_id=ec6992a0-8ed9-4083-8163-81b563f8b4a9&api_key=CometServer1&access_token=1638028421_urn%3Aaaid%3Asc%3AUS%3A0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d%3Bpublic_4aad1e58ed1ed363a9378919c40d793a56b9b093");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 9px;
+  }
+  .container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-crespos{
+    height: 30px;
+    position: relative;
+    top: 8px;
+    right: 85px;
+  }
+  .box-list{
+    display: flex;
+    color: #9767A9;
+    list-style: none;
+  }
+  li{
+    font-size: 1.2vw;
+    padding: 7px;
+    position: relative;
+    right: 2vw;
+    top: 4px;
+  }
+  li:hover{
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .container-lupa{
+    position: relative;
+    left: 72px;
+    top: 5px;
+    width: 12px;
+    z-index: 1;
+  }
+  .input{
+    border-radius: 10px;
+    border: 3px solid #9767A9;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    left: 55px;
+  }
+  .icon{
+    position: relative;
+    left: 85px;
+    top: 7px;
+  }
+  .box-icon img{
+    width: 35px;
+    padding: 4px;
+  }
