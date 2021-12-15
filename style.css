@@ -36,11 +36,12 @@ header{
 }
 .contain-menu img{
   height: 50px;
+  display: none;
 }
 .intro-img-logo{
   display: flex;
   align-items: center;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .intro-img-logo img{
   width: 55%;
@@ -77,7 +78,7 @@ input{
     border: 2.4px solid #9767A9;
     width: 124px;
     height: 23px;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 ::-webkit-input-placeholder{
   color:#9767A9;
