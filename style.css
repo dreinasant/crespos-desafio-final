@@ -510,7 +510,7 @@ main{
     display: flex;
   }
   .intro-img-logo{
-    margin-left: 170px;
+    margin-left: 220px;
   }
   #nav.ativei .box-list{
     display: flex;
@@ -518,7 +518,7 @@ main{
     align-items: flex-start;
     background-color:#9767A9;
     position: relative;
-    right: 557px;
+    right: 447px;
     top: 147px;
     flex-direction: column;
     height: 250px;
@@ -554,11 +554,56 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 50px;
+    margin-left: 150px;
     padding-bottom: 220px;
   }
+  .container-text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+  }
+  .container-text h2{
+    color: white;
+    width: 40%;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .container-text p{
+    font-size: 10px;
+    height: 380px;
+  }
   .box-h2{
+    background-color: #9767A9;
+    height: 300px;
+  }
+  .box-coroa{
+    bottom: 0;
+    top: 40px;
+  }
+  .box-container-espelho{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: brown;
+  }
+  .box-container{
+    bottom: 50px;
+    top: px;
+  }
+  .box-maju{
+    top: 0px;
+  }
+  .container-maju{
+    top: 1px;
+  }
+  .box-paragrafo-maju{
+    top: 0px;
+    bottom: 100px;
+  }
+  .box-maju{
+    height: 450px;
   }
 }
