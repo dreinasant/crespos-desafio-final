@@ -554,8 +554,11 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 90px;
-    padding-bottom: 260px;
-
+    margin-left: 50px;
+    padding-bottom: 220px;
+  }
+  .box-h2{
+    display: flex;
+    flex-direction: column;
   }
 }
