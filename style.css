@@ -510,7 +510,7 @@ main{
     display: flex;
   }
   .intro-img-logo{
-    margin-left: 220px;
+    margin-right: 0px;
   }
   #nav.ativei .box-list{
     display: flex;
@@ -562,18 +562,21 @@ main{
     justify-content: center;
     align-items: center;
     height: 500px;
-
   }
   .container-text h2{
     color: white;
-    width: 40%;
+    width: 72%;
     font-size: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
+    margin-top: 30px;
   }
   .container-text p{
     font-size: 10px;
     height: 380px;
+    width: 75%;
+    margin-bottom: 60px;
+    margin-left: 60px;
   }
   .box-h2{
     background-color: #9767A9;
@@ -581,13 +584,13 @@ main{
   }
   .box-coroa{
     bottom: 0;
-    top: 40px;
+    top: 30px;
+    width: 210%;
   }
   .box-container-espelho{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
   }
   .box-container{
     bottom: 50px;
@@ -597,13 +600,75 @@ main{
     top: 0px;
   }
   .container-maju{
-    top: 1px;
+    top: 0px;
+    width: 210%;
   }
   .box-paragrafo-maju{
     top: 0px;
-    bottom: 100px;
   }
   .box-maju{
     height: 450px;
+  }
+  .box-jovem-cachos{
+    bottom: 0;
+    top: 30px;
+    width: 210%;
+  }
+  .container-cachos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-cachos-h2{
+    bottom: 2px;
+  }
+  .container-rainha{
+   top: 70px;
+   bottom: px;
+   width: 210%;
+  }
+  .box-rainha{
+    top: 30px;
+  }
+  .container-img-adulto{
+    bottom: 0;
+    top: 225px;
+    width: 210%;
+  }
+  .container-criança-adulto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-criança-adulto{
+    bottom: ;
+    top: 180px;
+  }
+  .container-img-cabelo{
+    top: 210px;
+    width: 210%;
+  }
+  .box-cabelo{
+    top: 150px;
+  }
+  .intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-img{
+    top: 230px;
+    width: 210%;
+  }
+  .box-intro{
+    bottom: 0;
+    top: 200px;
+  }
+  .intro-cabelo{
+    background-color: cornflowerblue;
+  }
+  .intro-img-cabelo{
+    width: 80%;
+    top: 240px;
   }
 }
