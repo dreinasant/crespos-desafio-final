@@ -424,17 +424,17 @@ main{
   .box-images img{
     width: 27.8vh;
     position: relative;
-    left: 15px;
+    left: 13px;
   }
   .box-intro-img img{
     width: 27.4vh;
     position: relative;
-    right: 30px;
+    right: 22px;
   }
   .box-img img{
     width: 41.5vh;
     position: relative;
-    right: 15px;
+    right: 10px;
   }
   .container-imgs img{
     width: 27.5vh;
@@ -494,12 +494,6 @@ main{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-
-
 /*menu hamburguer*/
 @media(max-width: 816px){
   .contain-menu{
@@ -550,9 +544,6 @@ main{
   }
   .box-icon{
     display: none;
-  }
-  .cabeludo{
-    
   }
   .container-main{
     color:white;
